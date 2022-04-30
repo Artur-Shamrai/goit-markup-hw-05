@@ -588,6 +588,58 @@ address { margin-top: 20px ;}
 }
 /* End Footer Section */
 
+/* Footer Input */
+
+.footer-input {
+  display: flex;
+  flex-direction: column;
+  
+  margin-left: 93px;
+  width: 570px;
+  height: 86px;
+}
+
+.footer-button {
+  background-color: var(--akcent);
+color: var(--text-color-white);
+font-family: inherit;
+font-weight: var(--font-weight-bold);
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+width: 200px;
+height: 50px;
+border-radius: 4px;
+border: none;
+}
+
+.footer-text {
+  font-weight: var(--font-weight-bold);
+  color: var(--text-color-white);
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+
+.footer-form {
+ position: relative;
+ width: 358px;
+ height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+}
+
+.footer-desk {
+  position: absolute;
+  top: 1px;
+  left: 16px;
+  width: 47px;
+  height: 20px;
+}
+
+
+/* End Footer Input */
 
 
                   /*PORTFOLIO*/
